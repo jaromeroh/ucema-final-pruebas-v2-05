@@ -1,0 +1,13 @@
+{
+  "scenario": "03",
+  "headline": "Resumen ventas y costos directos por región (Escenario 03)",
+  "revenue_total": 600,
+  "margin_total": 300,
+  "change_percent": null,
+  "alerts": [
+    "No hay base comparable para calcular cambio porcentual (previous_revenue = 0).",
+    "No se detectaron regiones con pérdida en datos disponibles."
+  ],
+  "recommended_action": "Investigar y validar origen de previous_revenue = 0 en datos fuente; confirmar si corresponde a inicio de período o falta de registros. Revisar desglose por cliente y partidas de costo directas en 'Centro'.",
+  "requires_human_approval": true
+}

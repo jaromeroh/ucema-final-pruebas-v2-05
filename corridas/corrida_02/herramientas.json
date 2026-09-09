@@ -1,0 +1,34 @@
+[
+  {
+    "name": "summarize_sales",
+    "arguments": {
+      "scenario": "02"
+    },
+    "observation": {
+      "scenario": "02",
+      "source": "datos/ventas_02.csv",
+      "rows": [
+        {
+          "region": "Norte",
+          "revenue": "1000",
+          "cost": "1100",
+          "previous_revenue": "1200"
+        },
+        {
+          "region": "Sur",
+          "revenue": "500",
+          "cost": "400",
+          "previous_revenue": "800"
+        }
+      ],
+      "revenue_total": 1500.0,
+      "margin_total": 0.0,
+      "change_percent": -25.0,
+      "loss_regions": [
+        "Norte"
+      ],
+      "currency": "USD",
+      "scope": "ventas y costo directo; excluye impuestos, devoluciones y gastos generales"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "scenario": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "revenue_total": {
+      "type": "number"
+    },
+    "margin_total": {
+      "type": "number"
+    },
+    "change_percent": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "alerts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_action": {
+      "type": "string"
+    },
+    "requires_human_approval": {
+      "type": "boolean",
+      "enum": [
+        true
+      ]
+    }
+  },
+  "required": [
+    "scenario",
+    "headline",
+    "revenue_total",
+    "margin_total",
+    "change_percent",
+    "alerts",
+    "recommended_action",
+    "requires_human_approval"
+  ],
+  "additionalProperties": false
+}

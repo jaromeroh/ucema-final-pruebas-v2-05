@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-09-09T17:41:54.497687+00:00",
+  "requested_model": "gpt-5-mini-2025-08-07",
+  "returned_models": [
+    "gpt-5-mini-2025-08-07",
+    "gpt-5-mini-2025-08-07"
+  ],
+  "api_calls": 2,
+  "input_tokens": 1239,
+  "output_tokens": 211,
+  "cost_usd": 0.00073175,
+  "latency_seconds": 4.1801302920794114,
+  "status": "validated",
+  "source_sha256": {
+    "src/main.py": "fb06fc0815d2c586ccccc960cbd746ca9d4afc4947e6dd2e3efbf02d58c2dd83",
+    "src/runtime.py": "eb4ffd4caaf5f5c4f93e79107e7ac458cd581579e3393de906266a8184ac6a28",
+    "src/tools.py": "7f29a91ba39a3980d18567f9a6d2e5f80189c5ea44d2e4cae5d953971a4c389f",
+    "prompts/system_prompt.md": "fb3eb235365a27852a58a68dc8a85fd07e6916b2aa93cd74c4e6972d91ce0af3",
+    "prompts/user_prompt.md": "4489fe8239b58f1373bc58d76ab718de5b65d3a661de24f52f0a20f973e332db",
+    "datos/ventas_01.csv": "55aebe4127b3edf12bf635e62a4ba6d7712bc7d8988a658f2161c06625094367",
+    "datos/ventas_02.csv": "a6605ea384d243b9aeb964d1fb07c457bc76fe87249a52c3b84129f96a0dc2d4",
+    "datos/ventas_03.csv": "b1d8bd9b26b9b309c407faac25a69e6d74a1aa07c87137093e60b51bf4e01174"
+  },
+  "pricing": {
+    "input_per_million_usd": 0.25,
+    "cached_input_per_million_usd": 0.025,
+    "output_per_million_usd": 2.0,
+    "source": "https://developers.openai.com/api/docs/models/gpt-5-mini",
+    "checked_date": "2026-09-09"
+  }
+}

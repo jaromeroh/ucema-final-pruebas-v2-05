@@ -1,0 +1,13 @@
+{
+  "scenario": "02",
+  "headline": "Resumen por región: ventas y costos directos (alcance: ventas y costo directo; excluye impuestos, devoluciones y gastos generales)",
+  "revenue_total": 1500.0,
+  "margin_total": 0.0,
+  "change_percent": -25.0,
+  "alerts": [
+    "Región Norte presenta pérdida directa (costos > ventas).",
+    "Cambio total de ingresos -25% respecto al periodo previo (base disponible)."
+  ],
+  "recommended_action": "Investigar causas en Norte (analizar mix de productos, precios y costos directos) y en Sur evaluar qué impulsó la recuperación parcial. Revisar datos fuentes y confirmar ajustes de periodo. Preparar informe detallado por SKU y por cliente para la reunión.",
+  "requires_human_approval": true
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "summarize_sales",
+    "arguments": {
+      "scenario": "03"
+    },
+    "observation": {
+      "scenario": "03",
+      "source": "datos/ventas_03.csv",
+      "rows": [
+        {
+          "region": "Centro",
+          "revenue": "600",
+          "cost": "300",
+          "previous_revenue": "0"
+        }
+      ],
+      "revenue_total": 600.0,
+      "margin_total": 300.0,
+      "change_percent": null,
+      "loss_regions": [],
+      "currency": "USD",
+      "scope": "ventas y costo directo; excluye impuestos, devoluciones y gastos generales"
+    }
+  }
+]
